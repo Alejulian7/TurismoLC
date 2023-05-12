@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-image: url(../Recursos/imgs/psj2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+
+}
+
+header{
+    margin: 20px;
+    background-color: white;
+    padding: 20px 10px 5px 10px;
+}
+nav{
+    margin: 20px;
+    padding: 30px;
+    background-color: lightblue;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+nav ul li> a {
+    text-decoration: none;
+}
+section div{
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 30px;
+}
+section div article h2{
+    text-align: center;
+}
+section div article h3{
+    text-align: center;
+}
+footer{
+    margin: 20px;
+    background-color: white;
+    padding: 10px 10px 5px 10px;
+}
+form{
+    background-color: aqua;
+}
